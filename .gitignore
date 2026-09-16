@@ -1,0 +1,9 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
