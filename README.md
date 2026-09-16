@@ -32,7 +32,9 @@ demo), so the normal four-step pattern must be adapted:
 - `Step 9` – export to CSV (`assignment1_janenjuguna.csv`)
 - `Step 10` – reflection on the hardest part
 
-This is a **scaffold**: cells marked `# TODO` are left for you to complete.
+The `# TODO` markers left in comments are from the original starter scaffold —
+the code underneath each one is filled in and every step runs end-to-end
+(250 rows extracted, cleaned, and exported to CSV).
 
 ## Run it
 
@@ -51,5 +53,5 @@ pip install requests beautifulsoup4 pandas
 ## Layout
 
 ```
-web_scraping_week1_assignment.ipynb   # the assignment notebook (starter with TODOs)
+countries_of_the_world_web_scraper.ipynb   # the completed assignment notebook
 ```
