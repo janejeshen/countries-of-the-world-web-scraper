@@ -1,14 +1,14 @@
-# Countries of the World — Web Scraper
+# Countries of the World - Web Scraper
 
 A Jupyter notebook that scrapes all 250 countries of the world from a live web
-page and produces a clean CSV — a hands-on exercise in the *Data Understanding*
+page and produces a clean CSV - a hands-on exercise in the *Data Understanding*
 and *Data Preparation* steps of the Data Science Methodology.
 
 ## The task
 
-Scrape all **250 countries** from a single live page —
+Scrape all **250 countries** from a single live page -
 [scrapethissite.com/pages/simple/](https://www.scrapethissite.com/pages/simple/)
-("Countries of the World: A Simple Example") — and collect **name, capital,
+("Countries of the World: A Simple Example") - and collect **name, capital,
 population, and area** per country.
 
 The page is deliberately **not** built as a `<table>`, so the four-step pattern
@@ -21,18 +21,18 @@ must be adapted to its actual HTML structure:
 
 ## Pipeline in the notebook (Step 1 → Step 10)
 
-- `Step 1` – import `requests`, `bs4.BeautifulSoup`, `pandas`
-- `Step 2` – check the site's `robots.txt` and general policies
-- `Step 3` – fetch the page and assert a `2xx` status
-- `Step 4` – parse into a BeautifulSoup tree
-- `Step 5` – locate every repeating country block
-- `Step 6` – extract the four fields from each block
-- `Step 7` – build a DataFrame
-- `Step 8` – Data Preparation: inspect missing values, duplicates, and fix data types (`population`, `area_km2` come out as text)
-- `Step 9` – export to CSV (`assignment1_janenjuguna.csv`)
-- `Step 10` – reflection on the hardest part
+- `Step 1` - import `requests`, `bs4.BeautifulSoup`, `pandas`
+- `Step 2` - check the site's `robots.txt` and general policies
+- `Step 3` - fetch the page and assert a `2xx` status
+- `Step 4` - parse into a BeautifulSoup tree
+- `Step 5` - locate every repeating country block
+- `Step 6` - extract the four fields from each block
+- `Step 7` - build a DataFrame
+- `Step 8` - Data Preparation: inspect missing values, duplicates, and fix data types (`population`, `area_km2` come out as text)
+- `Step 9` - export to CSV (`assignment1_janenjuguna.csv`)
+- `Step 10` - reflection on the hardest part
 
-The `# TODO` markers left in comments are from the original starter scaffold —
+The `# TODO` markers left in comments are from the original starter scaffold -
 the code underneath each one is filled in and every step runs end-to-end
 (250 rows extracted, cleaned, and exported to CSV).
 
