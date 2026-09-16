@@ -12,8 +12,8 @@ Scrape all **250 countries** from a single live page —
 ("Countries of the World: A Simple Example") — and collect **name, capital,
 population, and area** per country.
 
-The page is deliberately **not** built as a `<table>` (unlike the in-class hockey
-demo), so the normal four-step pattern must be adapted:
+The page is deliberately **not** built as a `<table>`, so the four-step pattern
+must be adapted to its actual HTML structure:
 
 1. **Fetch** the page over HTTP (`requests`)
 2. **Parse** the HTML with BeautifulSoup (`html.parser`)
