@@ -1,8 +1,9 @@
-# Web Scraping — Week 1 Assignment (Countries of the World)
+# Countries of the World — Web Scraper
 
-A **starter** Jupyter notebook for the Cyber Shujaa *Data & AI Specialist Program*,
-Week 1 / Assignment 1: **Web Data Scraping** — hands-on practice of the
-*Data Understanding* and *Data Preparation* steps of the Data Science Methodology.
+A Jupyter notebook that scrapes all 250 countries of the world from a live web
+page and produces a clean CSV — a hands-on exercise in the *Data Understanding*
+and *Data Preparation* steps of the Data Science Methodology, from the Cyber
+Shujaa *Data & AI Specialist Program* (Week 1: Web Data Scraping).
 
 ## The task
 
@@ -38,20 +39,20 @@ the code underneath each one is filled in and every step runs end-to-end
 
 ## Run it
 
-Open with Jupyter / VS Code / Colab and run cells top to bottom. The core Python
+Open with Jupyter / VS Code / Colab and run the cells top to bottom. The core
 libraries are pre-installed in Colab; locally you may need:
 
 ```bash
 pip install requests beautifulsoup4 pandas
 ```
 
-## Deliverables (as per the assignment brief)
+## Output
 
-- this notebook (`.ipynb`)
-- the exported `.csv` file from Step 9 (e.g. `assignment1_janenjuguna.csv`)
+- the completed notebook (`.ipynb`)
+- the exported CSV from Step 9 (`assignment1_janenjuguna.csv`)
 
 ## Layout
 
 ```
-countries_of_the_world_web_scraper.ipynb   # the completed assignment notebook
+countries_of_the_world_web_scraper.ipynb   # the completed web-scraping notebook
 ```
