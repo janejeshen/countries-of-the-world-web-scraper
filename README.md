@@ -2,8 +2,7 @@
 
 A Jupyter notebook that scrapes all 250 countries of the world from a live web
 page and produces a clean CSV — a hands-on exercise in the *Data Understanding*
-and *Data Preparation* steps of the Data Science Methodology, from the Cyber
-Shujaa *Data & AI Specialist Program* (Week 1: Web Data Scraping).
+and *Data Preparation* steps of the Data Science Methodology.
 
 ## The task
 
